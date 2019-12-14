@@ -1,0 +1,482 @@
+
+
+    
+
+   
+
+body{
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+h1, h2, h3{
+		color: #7AAC38;
+		text-shadow: 0px 0px 2px #fff;
+    font-family: 'Carter One', cursive;
+}
+h4, h5, h6{
+		
+    font-family: 'Carter One', cursive;
+}
+.just-border{
+	display: block;
+	height: 3px;
+	width: 100px;
+	background:  #7AAC38;
+	margin: 0 auto;
+}
+/*=========   Golobal =========*/
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+input{
+	width: 100%;
+}
+/*=========   Navbar Start=========*/
+.navbar{
+	 background: #fff !important;
+	 border-bottom: 50px solid #437500;
+}
+.navbar-brand{
+	position: relative;
+	height: 100%;
+	padding: 10px 100px 10px 50px;
+	background-image: linear-gradient(236deg,#fff 23%,#7AAC38 0%);
+    background-color: #7EBEC5;
+
+}
+.navbar-toggler{
+	margin-right: 10px;
+	background: #437500;
+
+}
+.navbar {}
+.navbar ul {}
+.navbar ul li {}
+.navbar ul li {
+	border-top: 2px solid transparent;
+	padding: 0 5px;
+}
+.navbar ul li:hover {
+	border-top: 2px solid #7AAC38;
+}
+.navbar ul li a{
+
+	font-size: 18px;
+	color: #7AAC38 !important;
+	font-family: 'Carter One', cursive;
+	text-transform: uppercase;
+}
+.navbar ul li a{}
+
+
+
+/*=========   Navbar End=========*/
+
+/*=========   Carousel Start=========*/
+.top-slider{
+	margin-top: 95px;
+	
+}
+.carousel-caption{
+	margin: 0px;
+	padding: 0px;
+	border: 50px solid #5e9a0da3;
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	bottom: 50%;
+	transform: translateY(50%);
+	box-shadow: 0px 0px 2px 4px #253e05;
+	
+}
+.carosud-background{
+	padding: 20px;
+	height: 100%;
+	background: #7aac3873;
+	box-shadow: inset  0px 0px 9px 4px #000;
+}
+/*=========   Carousel End=========*/
+
+/*=========   Search Option Start=========*/
+.search-option{
+	background: #7AAC38 ; 
+	
+}
+.search-bgimage{
+
+	min-height: 250px;
+	position: relative;
+	background: url(img/Seamless-Floral-Background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #162700;
+	background-blend-mode: multiply;
+}
+.search-bgimage h3{
+
+	position: absolute;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.search-item{
+	
+}
+
+/*=========   Search Option End=========*/
+
+/*======== Appartment Start  ========= */
+.appart-decription{
+
+}
+.appart-background{
+	box-shadow: 1px 1px 15px #7AAC38;
+}
+.appart-content img{
+	height: 250px !important;
+
+}
+.appart-content ul{
+	padding-left: 10px;
+}
+.appart-content i{
+	font-size: 20px;
+	color: #7AAC38;
+	padding: 10px 0px ;
+	
+}
+.appart-details{
+
+	overflow: hidden;
+    background-image: linear-gradient(216deg,#fff 30%,#7AAC38 0%);
+    background-color: #7AAC38;
+
+}
+
+
+.appart-details ul i{
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 20px 20px 10px ;
+}
+.appart-details a{
+	color: #7AAC38;
+	padding: 20px 5px ;
+}
+@media (max-width: 1199px) and (min-width: 757px){
+	.appart-details{
+	background: #7AAC38;
+	}
+	.appart-details ul i{
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 5px ;
+}
+	.appart-details a{
+	color: #fff !important;
+
+}
+}
+
+
+/*======== Appartment End  ========= */
+
+/*=========  History Start=========*/
+
+.history-sec{
+	background-image: linear-gradient(-34deg,#fff 87%,#7AAC38 0%);
+    background-color: #7AAC38;
+
+
+}
+.history-img{
+	
+	margin-bottom: 30px;
+	
+}
+.history-img img{
+	width: 100%;
+	height: 100% ;
+	object-fit: cover;
+}
+/*=========  History End=========*/
+
+/*=========  Multi Question Start =========*/
+
+.multi-ques{
+	background: url(img/Real-estate-in-Vancouver-Shutterstock.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.multi-ques .card{
+	margin:40px 0px;
+	border: none;
+    background: #619221a8;
+    box-shadow: inset 0px 20px 7px 1px #2e480a;
+    border-radius: 0px;
+
+}
+.multi-ques .card-body{
+	
+	color: #fff;
+
+}
+.multi-ques .card-header{
+	border-radius: 0px;
+	background: #7AAC38;
+	box-shadow: inset 0px 20px 7px 1px #2e480a;
+}
+.multi-ques button{
+	
+	color: #fff;
+}
+.multi-ques button:hover{
+	
+	color: #fff;
+}
+/*========= Multi Question End =========*/
+
+/*========= Chose us Start=========*/
+.chose-us{
+	color: #ffffff;
+}
+.chose-us h1{
+	color: #7AAC38;
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 27%, rgba(122,172,56,1) 71%);
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), 2px 2px 0px rgba(85,206,19,0);
+	
+}
+.chose-us i{
+	height: 100px;
+	width: 100px;
+	color: #83A437;
+	font-size: 30px;
+	line-height: 100px;
+	margin-top: -60px;
+	border-radius: 50%;
+	text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), 2px 2px 0px rgba(85,206,19,0);
+	margin-bottom: 20px;
+	transition: all .5s ;
+}
+.chose-us .row div i{
+	
+}
+.chose-us .row div:hover i{
+		background: #93af2670;
+		box-shadow: 0px 0px 8px 0px #cfff16;
+}
+.chose-us .row div:nth-child(1){
+	background-color: #162700;
+	
+}
+.chose-us .row div:nth-child(2){
+	background-color: #386100;
+}
+.chose-us .row div:nth-child(3){
+	background-color: #599c00;
+	
+}
+.chose-us .row div:nth-child(4){
+	background-color: #437500;
+	
+}
+
+/*========= Chose us End=========*/
+
+/*=========  Agent Start=========*/
+.agents{}
+
+.agents h4{
+	color: #7c7c7c;
+}
+.agent-background{
+	transition:  all .5s ease;
+	text-align: center;
+
+}
+.agent-background img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+
+
+}
+.agents .row  .agent-background{
+	border-radius: 5px;
+-webkit-box-shadow: inset 0px -15px 20px 20px #599c00;
+-moz-box-shadow: inset 0px -15px 20px 20px #599c00;
+box-shadow: inset 0px -15px 20px 20px #599c00;
+	
+}
+
+
+.agent-contact ul li{
+	list-style: none;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #7c7c7c;
+	margin-bottom: 10px;
+}
+.social{
+	
+}
+.social i{
+	height: 50px;
+	padding: 10px 10px 0 10px;
+	color: #fff;
+	font-size: 20px;
+	transition: all .5s ease;
+
+}
+.social i:hover{
+	padding: 10px 10px 10px 10px;
+	background: #93af2670;
+	box-shadow: 0px 0px 8px 0px #cfff16;
+}
+.agent-butt{}
+.agent-butt a{
+	font-size: 20px;
+	color: #599c00;
+	padding: 15px; 
+	-webkit-box-shadow: inset 0px 0px 5px 5px #599c00;
+	-moz-box-shadow: inset 0px 0px 5px 5px #599c00;
+	box-shadow: inset 0px 0px 5px 5px #599c00;
+	padding: 15px;
+	transition: all .5s ease;
+	border-radius: 5px;
+}
+.agent-butt a:hover{
+	color: #fff;
+	text-decoration: none;
+	-webkit-box-shadow: inset 0px 0px 5px 5px #599c00;
+	-moz-box-shadow: inset 0px 0px 5px 5px #599c00;
+	box-shadow: inset 0px 0px 5px 5px #599c00;
+	background: #599c00;
+	
+}
+/*=========  Agent End=========*/
+
+
+/* Footer Start*/
+.footer-border-left{
+	float: left;
+	width: 60%;
+	height: 2px;
+	background: #599c00;
+	margin: 10px;
+}
+.footer-border-middle{
+	float: right;
+	width: 60%;
+	height: 2px;
+	background: #599c00;
+	margin: 10px;
+}
+footer{}
+footer li{
+	font-size: 20px;
+	list-style: none;
+	padding-top: 10px;
+	color: #599c00;
+}
+footer span{
+	color: #40443b;
+}
+.copy-right{
+    padding: 17px;
+    -webkit-box-shadow: inset 0px -15px 20px 20px #599c00;
+    -moz-box-shadow: inset 0px -15px 20px 20px #599c00;
+    box-shadow: inset 0px -14px 22px 14px #599c00;
+}
+
+.footer-shadow{
+	box-shadow: 5px -5px 9px #000;
+	
+}
+.footer-shadow img{
+	height: 100px;
+	
+}
+/* Footer End*/
+
+@media (max-width: 767px){
+		h4{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	.carousel-item{
+		height: 400px;
+	}
+	.carousel-item img{
+		height: 100%;
+	}
+	.carousel-item p{
+		display: none;
+	}
+}
+
+@media (max-width: 575px){
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	.appart-details a{
+	color: #fff !important;
+
+}
+
+.carousel-caption{
+	
+	border: 5px solid #5e9a0da3;
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	bottom: 50%;
+	transform: translateY(50%);
+	box-shadow: 0px 0px 2px 4px #253e05;
+	
+}
+.carosud-background{
+	padding: 20px 5px;
+	height: 100%;
+	background: #7aac3873;
+	box-shadow: inset  0px 0px 9px 4px #000;
+}
+.appart-details{
+	background: #7AAC38;
+	}
+.navbar-brand{
+	position: relative;
+	height: 100%;
+	padding: 10px 50px 10px 10px;
+	background-image: linear-gradient(236deg,#fff 23%,#7AAC38 0%);
+    background-color: #7EBEC5;
+
+}
+
+
+}
+@media (max-width: 380px){
+	.appart-details a{
+		color: #fff;
+	float: left !important;
+	}
+}
